@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <!-- CONNECTING ALL STYLE SHEETS AND FONTS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- END CONNECTION -->
+
+
+        <title>Dan Words</title>
+
+    </head>
+
+    <body>
+
+        <div class="container">
+	      <div class="row">
+	      <!-- Begin Left Column -->
+	        <div class="col-md-8">
+	        <h1>Ball Game</h1>
+	          <div class="form-group">
+	            <label>Exclamation:<span class="red">*</span><span id="small">No exclamation point</span></label><br>
+	            <input type="text" class="clear" id="exclamation" placeholder="Holy Cow">
+	          </div>
+
+	          <div class="form-group">
+	            <label>Noun:<span class="red">*</span></label><br>
+	            <input type="text" class="clear" id="noun" placeholder="Surf board">
+	          </div>
+	          <div class="form-group">
+	            <label>Adjective:<span class="red">*</span></label><br>
+	            <input type="text" class="clear" id="adjective" placeholder="Sticky">
+	          </div>
+            <div class="form-group">
+	            <label>Another Adjective:<span class="red">*</span></label><br>
+	            <input type="text" class="clear" id="adjective2" placeholder="Salty">
+	          </div>
+            <div class="form-group">
+	            <label>Food-1:<span class="red">*</span></label><br>
+	            <input type="text" class="clear" id="food" placeholder="Hot dog">
+	          </div>
+            <div class="form-group">
+	            <label>Food-2:<span class="red">*</span></label><br>
+	            <input type="text" class="clear" id="food2" placeholder="Snickers">
+	          </div>
+            <div class="form-group">
+	            <label>Emotion:<span class="red">*</span></label><br>
+	            <input type="text" class="clear" id="sad" placeholder="Scared">
+	          </div>
+
+	          <div class="form-group">
+	            <label>Name:<span class="red">*</span></label><br>
+	            <input type="text" class="clear" id="name" placeholder="Any Name">
+	          </div>
+	            <button class="btn btn-info" id="lib-button">Create Story!</button>
+	            <button class="btn btn-danger" id="clear">Clear</button>
+	            <div id="story"></div>
+	        </div>
+
+
+	        <!-- Begin Right Column -->
+	        <div class="col-md-4">
+		        <div class="container" id="right-column">
+		        <!-- 5px top padding -->
+		        <h1 id="right">Stories</h1>
+              <div id="stories">
+                <ul>
+                  <li><a href="index.html">Wait...What?</a></li>
+                  <li><a href="camp.html">Camping Trip</a></li>
+                  <li><a href="rodeo.html">Rodeo</a></li>
+                  <li><a href="space.html">Space Camp</a></li>
+                </ul>
+              </div>
+					<!-- End of Stories -->
+		        </div>
+	        </div>
+	      </div>
+        <footer><a href="http://codepen.io/DanDev/pens/public/" target="_blank">&copy; 2017 Daniel Coria</a></footer>
+        </div>
+        <!-- javascript file -->
+        <script src="assets/js/ball-game.js" type="text/javascript"></script>
+    </body>
+</html>

@@ -1,0 +1,114 @@
+/*
+  This stylesheet is not intended to be fully responsive.
+  Later versions will implement the mobile-first responsive layout.
+*/
+body {
+	background: #EDEDED;
+}
+
+body:after {
+    content:"";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    border-left: 2px dotted #444;
+}
+
+h1 {
+	border-bottom: 1px solid black;
+	width: 50%;
+	font-size: 46px;
+}
+
+label {
+	font-size: 24px;
+}
+
+#small {
+	font-size: 9px;
+}
+
+#stories {
+	margin-left: 0;
+	padding-top: 10px;
+	text-decoration: none;
+	background: #ccc;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #000;
+	max-width: 150px;
+}
+
+ul, li{
+	list-style-type: none;
+	display: block;
+}
+
+tbody tr:hover {
+	background: #5bc0de;
+	box-shadow: 5px 5px 2px #000;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	cursor: pointer;
+	color: black;
+	font-weight: 800;
+	text-decoration: none;
+}
+
+.red {
+	color: red;
+}
+
+#story {
+	background: #DAE5E6;
+	font-weight: bold;
+	font-size: 28px;
+	margin: 15px 0px;
+	border: 1px solid black;
+	width: 50%;
+	padding: 10px;
+}
+
+input {
+	font-size: 18px;
+}
+
+#lib-button {
+	padding: 20px;
+	width: 19%;
+}
+
+#clear {
+	padding: 20px;
+	width: 10%;
+}
+
+#right-column {
+	padding-top: 5px;
+	width: 100%;
+}
+
+.space-between {
+	padding-top: 5px;
+}
+
+footer {
+	padding: 20px;
+	color: #1400ff;
+}
+
+footer:hover {
+	text-decoration: none;
+}
